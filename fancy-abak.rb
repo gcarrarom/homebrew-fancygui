@@ -7,9 +7,6 @@ class FancyAbak < Formula
   sha256 "429ff93cd6e0918f34202a8a08c83a7fb3e98abd6a1563c5eeedd23328a6d4ae"
   license "GPL-3.0"
 
-  depends_on "python"
-  depends_on "fzf"
-
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/37/f7/2b1b0ec44fdc30a3d31dfebe52226be9ddc40cd6c0f34ffc8923ba423b69/certifi-2022.12.7.tar.gz"
     sha256 "35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3"
@@ -92,4 +89,8 @@ class FancyAbak < Formula
   test do
     system "false"
   end
+
+  depends_on "python"
+  depends_on "fzf"
+
 end
