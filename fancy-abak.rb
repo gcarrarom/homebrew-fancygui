@@ -3,11 +3,12 @@ class FancyAbak < Formula
 
   desc "CLI for interacting with Abak."
   homepage "https://github.com/gcarrarom/fancy-abak"
-  url "https://files.pythonhosted.org/packages/e3/de/a87d07dae2ff9395f54d41bf2e09902e8326e15c816cdf7aae305fb57794/fancy-abak-1.1.0.tar.gz"
-  sha256 "a7a6b641ad0aa0815bf0470ef0aff56a3926b2706e22bb8216a7620b3d205c5f"
+  url "https://files.pythonhosted.org/packages/fb/92/11416067a9b5d2b10fe15084c5b399a21b58fdd433d416f5101b0e46b7c5/fancy-abak-1.2.0.tar.gz"
+  sha256 "429ff93cd6e0918f34202a8a08c83a7fb3e98abd6a1563c5eeedd23328a6d4ae"
   license "GPL-3.0"
 
   depends_on "python"
+  depends_on "fzf"
 
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/37/f7/2b1b0ec44fdc30a3d31dfebe52226be9ddc40cd6c0f34ffc8923ba423b69/certifi-2022.12.7.tar.gz"
@@ -34,11 +35,6 @@ class FancyAbak < Formula
     sha256 "e354bedeb60efa6affdcc8ae121b73544a7aa74156d047311948f6d711cd378d"
   end
 
-  resource "iterfzf" do
-    url "https://files.pythonhosted.org/packages/bf/73/c24a5dc92cc736e77f06f4957dc2c497fbc5c951fffbccaad3d83d6bcd26/iterfzf-0.5.0.20.0.tar.gz"
-    sha256 "2b6f04d87a7cba79d03c2bb83575bb4580f47502dc024a24fc5dc8c0cfbcc52f"
-  end
-
   resource "jaraco.classes" do
     url "https://files.pythonhosted.org/packages/bf/02/a956c9bfd2dfe60b30c065ed8e28df7fcf72b292b861dca97e951c145ef6/jaraco.classes-3.2.3.tar.gz"
     sha256 "89559fa5c1d3c34eff6f631ad80bb21f378dbcbb35dd161fd2c6b93f5be2f98a"
@@ -57,6 +53,11 @@ class FancyAbak < Formula
   resource "pyaml" do
     url "https://files.pythonhosted.org/packages/b6/f0/dbb524509ce28f5cfd4e1d9e3ef955f51186cfd1b8297f6e158778c4a8ef/pyaml-21.10.1.tar.gz"
     sha256 "c6519fee13bf06e3bb3f20cacdea8eba9140385a7c2546df5dbae4887f768383"
+  end
+
+  resource "pyfzf" do
+    url "https://files.pythonhosted.org/packages/d4/4c/c0c658a1e1e9f0e01932990d7947579515fe048d0a515f07458ecd992b8f/pyfzf-0.3.1.tar.gz"
+    sha256 "dd902e34cffeca9c3082f96131593dd20b4b3a9bba5b9dde1b0688e424b46bd2"
   end
 
   resource "PyYAML" do
