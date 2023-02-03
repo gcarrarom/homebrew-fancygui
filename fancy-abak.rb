@@ -3,8 +3,8 @@ class FancyAbak < Formula
 
   desc "CLI for interacting with Abak."
   homepage "https://github.com/gcarrarom/fancy-abak"
-  url "https://files.pythonhosted.org/packages/a0/1d/cf29bc3c8f319ee87993396cc193e4a60f8368c2fc524218fc62cfb0cd2a/fancy-abak-1.0.3.tar.gz"
-  sha256 "165b14aa727a74c27a3a6ed8fbd11a4c45e25c152ebae16dedc705c024cb7c35"
+  url "https://files.pythonhosted.org/packages/e3/de/a87d07dae2ff9395f54d41bf2e09902e8326e15c816cdf7aae305fb57794/fancy-abak-1.1.0.tar.gz"
+  sha256 "a7a6b641ad0aa0815bf0470ef0aff56a3926b2706e22bb8216a7620b3d205c5f"
   license "GPL-3.0"
 
   depends_on "python"
@@ -12,11 +12,6 @@ class FancyAbak < Formula
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/37/f7/2b1b0ec44fdc30a3d31dfebe52226be9ddc40cd6c0f34ffc8923ba423b69/certifi-2022.12.7.tar.gz"
     sha256 "35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3"
-  end
-
-  resource "cffi" do
-    url "https://files.pythonhosted.org/packages/2b/a8/050ab4f0c3d4c1b8aaa805f70e26e84d0e27004907c5b8ecc1d31815f92a/cffi-1.15.1.tar.gz"
-    sha256 "d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9"
   end
 
   resource "charset-normalizer" do
@@ -27,16 +22,6 @@ class FancyAbak < Formula
   resource "click" do
     url "https://files.pythonhosted.org/packages/59/87/84326af34517fca8c58418d148f2403df25303e02736832403587318e9e8/click-8.1.3.tar.gz"
     sha256 "7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e"
-  end
-
-  resource "click-keyring" do
-    url "https://files.pythonhosted.org/packages/88/ab/e0ef37852d65fb32b8b9a05e5bcdd55fca2f43fa26529b23d1081a188898/click-keyring-0.2.1.tar.gz"
-    sha256 "a4bf3f75b13db9e9b1dee22a3c3d420db8ff3d998b94ea3bdea7b3a0bfe72e1f"
-  end
-
-  resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/12/e3/c46c274cf466b24e5d44df5d5cd31a31ff23e57f074a2bb30931a8c9b01a/cryptography-39.0.0.tar.gz"
-    sha256 "f964c7dcf7802d133e8dbd1565914fa0194f9d683d82411989889ecd701e8adf"
   end
 
   resource "idna" do
@@ -69,9 +54,9 @@ class FancyAbak < Formula
     sha256 "5a6257e40878ef0520b1803990e3e22303a41b5714006c32a3fd8304b26ea1ab"
   end
 
-  resource "pycparser" do
-    url "https://files.pythonhosted.org/packages/5e/0b/95d387f5f4433cb0f53ff7ad859bd2c6051051cebbb564f139a999ab46de/pycparser-2.21.tar.gz"
-    sha256 "e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206"
+  resource "pyaml" do
+    url "https://files.pythonhosted.org/packages/b6/f0/dbb524509ce28f5cfd4e1d9e3ef955f51186cfd1b8297f6e158778c4a8ef/pyaml-21.10.1.tar.gz"
+    sha256 "c6519fee13bf06e3bb3f20cacdea8eba9140385a7c2546df5dbae4887f768383"
   end
 
   resource "PyYAML" do
