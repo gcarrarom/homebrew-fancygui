@@ -5,7 +5,7 @@ class FancyAbak < Formula
   homepage "https://github.com/gcarrarom/fancy-abak"
   url "https://files.pythonhosted.org/packages/a0/1d/cf29bc3c8f319ee87993396cc193e4a60f8368c2fc524218fc62cfb0cd2a/fancy-abak-1.0.3.tar.gz"
   sha256 "165b14aa727a74c27a3a6ed8fbd11a4c45e25c152ebae16dedc705c024cb7c35"
-  license "GPL"
+  license "GPL-3.0"
 
   depends_on "python"
 
