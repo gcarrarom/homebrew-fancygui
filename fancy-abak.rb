@@ -3,8 +3,8 @@ class FancyAbak < Formula
 
   desc "CLI for interacting with Abak."
   homepage "https://github.com/gcarrarom/fancy-abak"
-  url "https://files.pythonhosted.org/packages/fb/92/11416067a9b5d2b10fe15084c5b399a21b58fdd433d416f5101b0e46b7c5/fancy-abak-1.2.0.tar.gz"
-  sha256 "429ff93cd6e0918f34202a8a08c83a7fb3e98abd6a1563c5eeedd23328a6d4ae"
+  url "https://files.pythonhosted.org/packages/35/49/98c7e45bf09f4017f6b575a1360e29a1624c8e842362352fbf651677e066/fancy_abak-2.0.0.tar.gz"
+  sha256 "f99a5e52d3f0ee51ab4d556c2be18eaeda054ebb1be2a2a91e43a03e9729c938"
   license "GPL-3.0"
 
   resource "certifi" do
@@ -90,7 +90,7 @@ class FancyAbak < Formula
     system "false"
   end
 
-  depends_on "python"
+  depends_on "python@3.11"
   depends_on "fzf"
 
 end
